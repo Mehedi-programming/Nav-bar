@@ -1,0 +1,36 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #615f5b;
+}
+.nav_container{
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    background-color: #fff9ea;
+    height: 108px;
+
+}
+.home{
+    color: black;
+    font-weight:bold;
+    border-bottom: 2px solid #ffcb45;
+}
+nav>ul>li{
+    list-style: none;
+}
+.nav_ul{
+    display:flex;
+    gap:37px
+}
+.nav-btn{
+    height: 38.13px;
+    width: 122px;
+    background-color: #ffcb45;
+    border:none;
+    border-radius: 20px;
+    font-weight: bold;
+}
