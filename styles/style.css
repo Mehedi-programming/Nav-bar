@@ -34,3 +34,46 @@ nav>ul>li{
     border-radius: 20px;
     font-weight: bold;
 }
+.hero-section{
+    background-image:url('../images/shapes.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:1439px;
+    height:601px;
+}
+.kanit{
+    color: black;
+    font-size:40px;
+    border: 0px solid #fff9ea;
+    font-weight: bolder;
+    padding-left:85px;
+    padding-top:170px; 
+}
+.lorem{
+    color:#615f5b;
+    padding-top: 21px;
+    padding-left:85px;
+}
+.second-btn{
+    border:0px;
+    border-radius:20px; 
+    background-color: #ffcb45;
+    margin-left: 85px;
+    margin-top: 23px;
+} 
+.hero-right{
+    border:0px;
+    /* margin-top: 12px; */
+    margin-right: 142.91px;
+    
+}
+.hero-section1{
+    display: flex;
+    gap:320.86px;
+
+}
+
+
+
+
