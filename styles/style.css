@@ -2,14 +2,17 @@
     font-family: Poppins;
     margin: 0;
 }
+body{
+    overflow-x: hidden;
+}
 nav>ul>li>a{
     text-decoration: none;
     color: #615f5b;
 }
 .nav_container{
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
-    display: flex;
     background-color: #fff9ea;
     height: 108px;
 
@@ -34,46 +37,174 @@ nav>ul>li{
     border-radius: 20px;
     font-weight: bold;
 }
+/* hero section style */
 .hero-section{
     background-image:url('../images/shapes.png');
-    background-size: cover;
-    background-position: center;
+    /* background-size: contain; */
     background-repeat: no-repeat;
-    width:1439px;
-    height:601px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    gap:199px
 }
-.kanit{
-    color: black;
+.first-pera{
     font-size:40px;
-    border: 0px solid #fff9ea;
     font-weight: bolder;
-    padding-left:85px;
-    padding-top:170px; 
+    line-height: 50px;
 }
 .lorem{
     color:#615f5b;
-    padding-top: 21px;
-    padding-left:85px;
+    /* margin-top: px;
+}*/
 }
-.second-btn{
-    border:0px;
-    border-radius:20px; 
-    background-color: #ffcb45;
-    margin-left: 85px;
-    margin-top: 23px;
-} 
-.hero-right{
-    border:0px;
-    /* margin-top: 12px; */
-    margin-right: 142.91px;
+/* hero section end */
+
+
+/* main part start*/
+/* what we serve */
+.what-we-serve{
+    margin-top: 60px;
+    text-align: center;
+}
+.same-color{
+    color: #616161;
+}
+.order-delivery-quality{
+    display: flex;
+    text-align: center;
+    justify-content:center;
+    gap: 153px;
+    margin-top: 30px;
+}
+/* second part of main */
+.our-menu{
+    text-align: center;
+    /* justify-content:center */
+    margin-top: 116px;
+}
+.card-image{
+    background-color: #f1f1f1;
+    padding: 30px;
+    height: 200px;
+}
+.dolar{
+    display:flex;
+    justify-content:center;
+    gap:158px
+}
+.all-card{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap:24px;
     
 }
-.hero-section1{
-    display: flex;
-    gap:320.86px;
+h4{
+    text-align: center;
+}
+.p{
+    text-align: center;
 
 }
-
-
-
-
+.third-btn{
+    display:flex;
+    justify-content:center;
+    text-align: center;
+    margin-top:65px;
+} 
+/* review section */
+.review-main{
+    margin-top: 50px;
+    display: flex;
+    gap: 84px;
+}
+.img-container{
+    position: relative;
+    margin-left: 145px;
+}
+.review-img2-3{
+    margin-top:-35px;
+}
+.review-img-3{
+    position: relative;
+    margin-left: -30px;
+}
+.right-1-img-background{
+    background-color: #f1f1f1;
+    margin-top: 32px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 400px;
+}
+.right-1-img{
+    display: flex;
+    gap:20px;
+    
+}
+.review-card{
+    display: flex;
+    gap: 24px;
+}
+.before-fotter{
+    background-image: url(../images/img10.svg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 332px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.footer-image{
+    background-image: url(../images/img11.svg);
+    background-repeat: no-repeat;
+}
+.main-footer{
+    display: flex;
+    gap: 210px;
+    /* justify-content: center; */
+    margin-top: 45px;
+}
+.section-1-footer{
+    display: flex;
+    gap: 160px;
+    margin-top: 90px;
+}
+.section1-1{
+    margin-left: 100px;
+    /* margin-top: 5px; */
+}
+.section1-2{
+    margin-top: 15px;
+}
+.section2-1{
+    margin-top:15px ;
+}
+.section2-2{
+    margin-top:15px;
+}
+.section-2-footer{
+    display:flex;
+    gap: 170px;
+    margin-top: 90px;
+}
+.ins-fac-twi{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-top: 32px;
+    margin-left: -55px;
+}
+.footer-2list{
+    list-style: none;
+    margin-left: -38px;
+    margin-top: 32px;
+    color: #615f5b;
+}
+.footer-last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
